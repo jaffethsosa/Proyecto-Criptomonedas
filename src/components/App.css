@@ -1,0 +1,16 @@
+.app-container {
+    max-width: 1400px;
+    margin: auto;
+  }
+  
+  .label {
+    color: skyblue;
+  }
+  
+  .positivo {
+    color: #4FFF60;
+  }
+  
+  .negativo {
+    color: #FF5977;
+  }

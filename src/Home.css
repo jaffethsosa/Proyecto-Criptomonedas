@@ -1,0 +1,45 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    text-align: center;
+    padding: 20px;
+    color: white; 
+}
+
+
+.home-container h1 {
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1rem;
+    color: #7adffe; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+}
+
+
+.home-container p {
+    font-size: 1.2rem;
+    font-family: 'IBM Plex Mono', monospace;
+    margin-bottom: 2rem;
+    color: #d1d1d1;
+}
+
+
+.home-container a {
+    background-color: #7adffe;
+    color: #171837; 
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.home-container a:hover {
+    background-color: #58c2e0;
+    color: #fff; 
+}
