@@ -1,4 +1,4 @@
-# Criptomonedas SOSA
+# Criptomonedas SOSA 📊
 Criptomonedas SOSA es una aplicación web diseñada para mostrar información en tiempo real sobre criptomonedas, incluyendo precios actuales, historial de precios, y detalles específicos de cada moneda. La aplicación permite a los usuarios ver y seguir los cambios en el valor de diferentes criptomonedas mediante gráficos y rutas dinámicas.
 
 ## Características
