@@ -1,8 +1,21 @@
-# React + Vite
+# Criptomonedas SOSA 📊
+Criptomonedas SOSA es una aplicación web diseñada para mostrar información en tiempo real sobre criptomonedas, incluyendo precios actuales, historial de precios, y detalles específicos de cada moneda. La aplicación permite a los usuarios ver y seguir los cambios en el valor de diferentes criptomonedas mediante gráficos y rutas dinámicas.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Características
+- Visualización del precio actual de criptomonedas.
+- Gráficos históricos de precios para análisis de tendencias.
+- Búsqueda y filtrado de criptomonedas por nombre o símbolo.
+- Rutas dinámicas para ver detalles específicos de cada criptomoneda.
+- Interfaz intuitiva y responsive para mejorar la experiencia del usuario.
 
-Currently, two official plugins are available:
+##Tecnologías Utilizadas
+- Frontend: React, CSS
+- Llamadas a API: Axios para obtener datos de precios y detalles de criptomonedas.
+- API de Datos: Integración con una API pública de criptomonedas para datos en tiempo real.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Mejoras Futuras
+- Implementar autenticación para usuarios registrados.
+- Añadir una sección de favoritos para hacer seguimiento personalizado de criptomonedas.
+- Incluir un dashboard con estadísticas, gráficos avanzados y noticias del mercado de criptomonedas.
+- Exportación de reportes en PDF o Excel.
+- Notificaciones en tiempo real para alertas de precios o cambios significativos en el mercado.
