@@ -14,8 +14,11 @@ Criptomonedas SOSA es una aplicación web diseñada para mostrar información en
 - API de Datos: Integración con una API pública de criptomonedas para datos en tiempo real.
 
 ## Mejoras Futuras
-- Implementar autenticación para usuarios registrados.
 - Añadir una sección de favoritos para hacer seguimiento personalizado de criptomonedas.
 - Incluir un dashboard con estadísticas, gráficos avanzados y noticias del mercado de criptomonedas.
 - Exportación de reportes en PDF o Excel.
 - Notificaciones en tiempo real para alertas de precios o cambios significativos en el mercado.
+
+## Usuario y Contraseña 
+- eve.holt@reqres.in
+- cityslicka 
