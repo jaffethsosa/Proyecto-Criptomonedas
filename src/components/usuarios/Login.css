@@ -15,6 +15,7 @@
 
 .title{
     padding-top: 5rem;
+    text-align: center;
 }
 
 .login-container h1{
@@ -48,4 +49,12 @@
 
 .login-container input[type="submit"]:hover{
     background-color: #0056b3;
+}
+
+.login-container .error{
+    background-color: tomato;
+    margin-top: 1rem;
+    line-height: 3;
+    padding: 0.25rem 2rem;
+    border-radius: 0.25rem;
 }
