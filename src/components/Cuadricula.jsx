@@ -4,9 +4,15 @@ import usePetition from "../hooks/usePetition"
 
 function Cuadricula() {
 
-  const criptos = usePetition("assets")
+  const [criptos, cargando] = usePetition("assets")
+
+  if(cargando){
+    return <div>Cargando...</div>
+  }
 
   if (!criptos) return <span>Cargando...</span>
+  
+
 
   return (
     <div className="grid-container">

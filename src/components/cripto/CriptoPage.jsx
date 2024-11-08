@@ -9,13 +9,17 @@ const CriptoPage = () => {
 
   const params = useParams()
 
-  const cripto  = usePetition(`assets/${params.id}`)
-  const history = usePetition(`assets/${params.id}/history?interval=d1`)
+  const [cripto, cargandoCripto]  = usePetition(`assets/${params.id}`)
+  const [history, cargandoHistory] = usePetition(`assets/${params.id}/history?interval=d1`)
+
+  if (cargandoCripto || cargandoHistory) return <span>Loading...</span>;
+
+
 
   return (
   <div className="cripto-page-container">
     { cripto && <CriptoInfo cripto={cripto} /> }
-    {<CriptoGraphic cripto={cripto} history={history} />}
+    { cripto && <CriptoGraphic cripto={cripto} history={history} />}
     { history && <CriptoHistory history={history} /> }
     
   </div>

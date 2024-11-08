@@ -7,6 +7,7 @@ import Pagina404 from './components/404.jsx'
 import Cuadricula from './components/Cuadricula.jsx'
 import Home from './Home.jsx'
 import CriptoPage from './components/cripto/CriptoPage.jsx'
+import Perfil from './Perfil.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -14,7 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Routes>
             <Route path='/' element={<App />}>
                 <Route index element={<Home />} />
-                <Route path='saludo' element={<App />} />
+                <Route path='perfil' element={<Perfil />} />
             </Route>
             <Route path='/criptomonedas' element={<App />}>
                 <Route index element={<Cuadricula />} />

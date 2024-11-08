@@ -1,40 +1,26 @@
-:root {
-  --main-font: 'TuFuente', sans-serif; 
-  --text-color: rgba(255, 255, 255, 0.9); 
-  --bg-color: rgba(255, 255, 255, 0.04); 
-  --border-color: rgba(255, 255, 255, 0.08); 
-}
-
-body, h1, h2, h3, h4, h5, h6, p, span {
-  font-family: var(--main-font);
-  color: var(--text-color);
-  font-size: 1rem; 
-  line-height: 1.5; 
-}
-
 .cripto-page-container {
   display: grid;
-  grid-template-columns: 3, 1fr; 
-  gap: 2rem; 
-  padding: 2rem; 
+  grid-template-columns: 480px 1fr;
+  gap: 2rem;
+  position: relative;
 }
 
-.cripto-page-container .info {
-  padding: 2rem 4rem 0;
-  grid-column: auto; 
+.cripto-page-container .info  {
+  padding-top: 1rem;
+  position: fixed;
+}
+
+.cripto-page-container .chart-container  {
+  padding-top: 1rem;
+  grid-column: 2;
 }
 
 .cripto-page-container .history {
-  grid-column: auto;
-  padding-top: 2rem;
+  padding-top: 1rem;
+  grid-column-start: 2;
 }
 
-.chart-container {
-  margin: 2rem 0 0 4rem;
-  grid-column: auto;
-}
-
-.cripto-page-container .main-info {
+.cripto-page-container .main-info .chart-container{
   margin-bottom: 2rem;
 }
 
@@ -43,10 +29,11 @@ body, h1, h2, h3, h4, h5, h6, p, span {
 }
 
 .cripto-page-container .details {
-  background: var(--bg-color);
-  border: 1px solid var(--border-color);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 8px;
-  padding: 1.5rem 2.5rem; 
+  padding: 1.5rem;
+  padding-left: 2.5rem;
 }
 
 .cripto-page-container .detail {
@@ -61,8 +48,8 @@ body, h1, h2, h3, h4, h5, h6, p, span {
 
 table {
   width: 100%;
-  background: var(--bg-color);
-  border: 1px solid var(--border-color);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 8px;
   padding: 1rem;
 }
@@ -78,7 +65,7 @@ thead tr {
 }
 
 tbody tr:nth-child(odd) {
-  background: var(--bg-color);
+  background: rgba(255, 255, 255, 0.04);
   border-radius: 8px;
 }
 
@@ -86,9 +73,4 @@ tbody tr:nth-child(odd) {
   color: #4FFF60;
 }
 
-/* Graficas */ 
-.chart-container h2, 
-.chart-container p, 
-.chart-container span {
-  font-size: 1rem; 
-}
+
