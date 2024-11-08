@@ -1,18 +1,9 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
+import { UserContext } from "./context/UserContext";
 
 const Perfil = () => {
 
-    const [perfil, setPerfil] = useState({}); 
-
-    useEffect(()=>{
-        setPerfil({
-            name: "Juan",
-            age: 25,
-            email: "juan@gmail.com",
-            phone: "123456789",
-            registred: "15/Abril/1987"
-        })
-    }, [])
+    const perfil = useContext(UserContext)
 
     return (
         <div>
