@@ -4,6 +4,9 @@ import "./App.css"
 
 const App = () => {
 
+  if(!localStorage.getItem("tokenCriptoSOSA")) return <Navigate to="/login"/>
+
+
   return (
     <div className="app-container">
       <Menu />
